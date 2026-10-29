@@ -47,7 +47,6 @@ header {
   justify-content: center;
   padding-top: 32px;
   padding-bottom: 32px;
-
 }
 header .container {
   width: 75%;
@@ -89,13 +88,12 @@ header .container {
   padding-bottom: 16px;
   padding-left: 32px;
   padding-right: 32px;
-    font-size: 16px;
+  font-size: 16px;
 }
 .work-btn {
   background-color: #d9832e;
   color: white;
   border-style: none;
- 
 }
 
 .hire-btn {
@@ -104,20 +102,33 @@ header .container {
   border-width: 3px;
   border-style: solid;
   border-color: #d9832e;
-
 }
-.work-btn:hover{
-    background-color: #090A0C;
-   transition: 0.5s;
+.work-btn:hover {
+  background-color: #090a0c;
+  transition: 0.5s;
 }
-.hire-btn:hover{
-    background-color: #d9832e;
-    color: white; 
-    transition: 0.5s;
-
+.hire-btn:hover {
+  background-color: #d9832e;
+  color: white;
+  transition: 0.5s;
 }
 
-#home-about{
-    position: relative;
-    left: 200px;
+#home-about {
+  position: relative;
+  left: 200px;
+}
+.about-me {
+  background-color: #eaedf2;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+
+}
+.about-me .container {
+  width: 75%;
+
+}
+.about-me h1{
+    padding: 0;
+    margin-bottom: 0;
 }
