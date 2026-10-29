@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -7,26 +11,113 @@ nav {
   height: 80px;
   display: flex;
   justify-content: center;
-
 }
 
 nav div {
   width: 75%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+nav div ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+nav div ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+nav div ul li a:hover {
+  color: #d9832e;
+}
+nav div h1 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
 }
-nav div ul{
-    display: flex;
-    list-style: none;
-    gap: 32px;
+header .container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.subtitle {
+  padding: 0;
+  margin: 0;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 60px;
+}
+.cotation {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+.dev {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  color: gray;
+  letter-spacing: 2px;
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+.action {
+  display: flex;
+  column-gap: 12px;
+}
+.action button {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+    font-size: 16px;
+}
+.work-btn {
+  background-color: #d9832e;
+  color: white;
+  border-style: none;
+ 
+}
 
-
+.hire-btn {
+  background-color: white;
+  color: #d9832e;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #d9832e;
 
 }
-nav div ul li a{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-     font-family: "Roboto", sans-serif;
+.work-btn:hover{
+    background-color: #090A0C;
+   transition: 0.5s;
+}
+.hire-btn:hover{
+    background-color: #d9832e;
+    color: white; 
+    transition: 0.5s;
+
+}
+
+#home-about{
+    position: relative;
+    left: 200px;
 }
