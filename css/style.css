@@ -477,11 +477,28 @@ header .container {
     display: flex;
     justify-content: space-between;
     gap: 32px;
+    margin-top: 48px;
+
 
 }
 .form-card{
     width: 70%;
     background-color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 32px;
+
+
+
+
+
+}
+.form-card input{
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
 
 }
 .form-info{
