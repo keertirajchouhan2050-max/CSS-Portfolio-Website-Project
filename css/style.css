@@ -412,3 +412,116 @@ header .container {
 
 
 }
+.blog .card-content{
+    position: relative;
+    top: -100px;
+    left: 20px;
+
+
+}
+.blog .card-content h6{
+    background-color: #ea9a39;
+    width: fit-content;
+    padding: 8px;
+    color: white;
+    margin-bottom: 0;
+
+
+}
+.blog .card-content div{
+    background-color: white;
+    box-shadow: 0 0 10px 0 #ddd;
+    padding: 20px;
+    width: 75%;
+     
+
+}
+.blog .card-content button{
+    background-color: white;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+
+}
+.blog .card-content h4{
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.blog .card-content p{
+  color: gray;   
+
+}
+.blog .card-content a{
+    color: #ea9a39;
+    font-weight: 500;
+
+
+}
+.get{
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    padding-bottom: 58px;
+    background-color: #eaedf2;
+
+
+}
+.form-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+.form-card{
+    width: 70%;
+    background-color: white;
+
+}
+.form-info{
+    width: 30%;
+
+
+}
+.get .container{
+    width: 75%;
+
+}
+.form-info .card{
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    margin-bottom: 24px;
+
+
+}
+
+
+.form-info .card button{
+    width: 48px;
+    height: 48px;
+    background-color: #ea9a39;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    border-style: none;
+    width: 75px;
+
+
+}
+.form-info .card h4{
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+
+
+}
